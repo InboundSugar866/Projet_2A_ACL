@@ -1,0 +1,24 @@
+<project name="MyProject" default="run">
+	<!-- pour la compilation -->
+	<target name="compile">
+		<javac srcdir="." destdir="bin">
+		<!-- les différents dossiers des classes -->
+		<classpath>
+			<pathelement location="Groups"/>
+		</classpath>
+		<classpath>
+			<pathelement location="Persons"/>
+		</classpath>
+		</javac>
+	</target>
+	
+	<target name="run" depends="compile">
+		<java classname="Principale.main">
+		<classpath>
+			<pathelement location="bin"/>
+			<pathelement location="Groups"/>
+			<pathelement location="Persons"/>
+		</classpath>
+		</java>
+	</target>
+</project>

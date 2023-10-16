@@ -7,7 +7,7 @@ Branche dédiée aux tests et essais en tout genre.
 
 Première version du build.xml disponible dans TP1.
 Exécuter la commande 
-'''
-"ant run" 
-'''
+```
+ant run
+```
 pour le lancer.

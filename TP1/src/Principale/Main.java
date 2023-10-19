@@ -9,8 +9,10 @@ public class Main {
 
         Student S1 = new Student("jean-francois","petin",57,1);
         System.out.println("\n" + S1 + "\n");
-        Student S2 = new Student("martin","malin",27,2);
+        Student S2 = new Student("martin","matin",11,2);
         System.out.println("\n" + S2 + "\n");
+        Student S3 = new Student("Grand","Sechem",1025,3);
+        System.out.println("\n" + S3 + "\n");
 
         Professors P1 = new Professors("jean","pierre","math",1200);
         System.out.println(P1 + "\n");

@@ -50,5 +50,8 @@
     <target name="main" depends="compile, jar, docs">
         <description>Main target</description>
     </target>
-
+    
+   <target name="run" depends="jar">
+      <java jar="${dist.dir}/${ant.project.name}.jar" fork="true"/> 
+   </target>
 </project>

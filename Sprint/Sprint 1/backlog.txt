@@ -1,5 +1,5 @@
 Créer le labyrinthe dans le noir 
-Créer l'avatar avec une petite lampe de torche 
+Créer l'avatar avec une petite lampe torche 
 Créer différents niveaux de difficulté
 Créer des items positifs ou négatifs que va rencontrer l'avatar dans son parcours (ex: possibilité d'éclairer davantage le labyrinthe un bref instant)
 Annoncer la victoire du joueur

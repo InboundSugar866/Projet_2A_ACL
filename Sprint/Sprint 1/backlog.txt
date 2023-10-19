@@ -1,5 +1,5 @@
 Créer le labyrinthe dans le noir 
-Créer l'avatar avec une petite lampe torche 
+Créer l'avatar avec une petite lampe de torche 
 Créer différents niveaux de difficulté
 Créer des items positifs ou négatifs que va rencontrer l'avatar dans son parcours (ex: possibilité d'éclairer davantage le labyrinthe un bref instant)
 Annoncer la victoire du joueur
@@ -7,8 +7,8 @@ Annoncer la mort du joueur
 Afficher un chronomètre 
 Donner la possibilité de recommencer la partie
 Donner la possibilité de quitter la partie
-Donner la possibilité de changer de niveau difficulter
-Proposer plusieurs musique de jeux parmis une sélection 
+Donner la possibilité de changer de niveau de difficulté
+Proposer plusieurs musiques de jeux parmi une sélection 
 Accéder à l'historique des parties
-Proposer un design différents du labyrinthe 
-Proposer des avatars différents 
+Proposer des labyrinthes différents
+Proposer des avatars différents

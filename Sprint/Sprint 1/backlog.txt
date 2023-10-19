@@ -8,6 +8,7 @@ Afficher un chronomètre
 Donner la possibilité de recommencer la partie
 Donner la possibilité de quitter la partie
 Donner la possibilité de changer de niveau de difficulté
+Donner la possibilité de mettre en pause la partie
 Proposer plusieurs musiques de jeux parmi une sélection 
 Accéder à l'historique des parties
 Proposer des labyrinthes différents

@@ -1,7 +1,7 @@
 - Commencer une partie
 - Proposer une partie entre deux joueurs
 - Proposer une partie contre un ordinateur(choisir un niveau de difficulté)
-- Proposer différents modes de jeux : sans ou sans limite de temps(temps total de jeu à afficher)
+- Proposer différents modes de jeux : avec ou sans limite de temps(temps total de jeu à afficher)
 - Proposer que un des deux joueurs abandonne
 - Proposer un match nul
 - Proposer le choix de la couleur du joueur/ou aléatoire

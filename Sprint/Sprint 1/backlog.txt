@@ -3,7 +3,7 @@
 - créer différents niveaux de difficulté
 - créer des items positifs ou négatifs que va rencontrer l'avatar dans son parcours (ex: possibilité d'éclairer davantage le labyrinthe un bref instant)
 - Annoncer la victoire du joueur
-- Annoncer la mort du Joueur 
+- Annoncer la mort du joueur 
 - afficher un chronomètre 
 - Donner la possibilité de recommencer la partie
 - Donner la possibilité de quitter la partie

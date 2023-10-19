@@ -13,4 +13,4 @@ Exécuter la commande
 ```
 ant run
 ```
-pour lancer le build.xml situé dans le dossier test.
+pour lancer le build.xml situé dans le dossier TP1.

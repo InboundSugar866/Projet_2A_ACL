@@ -1,17 +1,14 @@
-- Commencer une partie
-- Proposer une partie entre deux joueurs
-- Proposer une partie contre un ordinateur(choisir un niveau de difficulté)
-- Proposer différents modes de jeux : avec ou sans limite de temps(temps total de jeu à afficher)
-- Proposer que un des deux joueurs abandonne
-- Proposer un match nul
-- Proposer le choix de la couleur du joueur/ou aléatoire
-- Choisir la couleur du plateau
-- Représenter le jeu en 3D (plateau + pièces avec des couleurs pour chaque joueur)
-- Détecter une victoire/fin de la partie
-- Le déplacement des pièces 
-- Les déplacements pécifiques des pièces
-- Animations (créer une explosion lorsque le pion est mort)
-- Proposer des règles alternatives d'échec
-- Mettre de la musique
-- Montrer l'historique des parties
-- Proposer les déplacements possibles pour chaque pièce
+- créer le labyrinthe dans le noir 
+- créer l'avatar avec une petite lampe torche 
+- créer différents niveaux de difficulté
+- créer des items positifs ou négatifs que va rencontrer l'avatar dans son parcours (ex: possibilité d'éclairer davantage le labyrinthe un bref instant)
+- Annoncer la victoire du joueur
+- Annoncer la mort du Joueur 
+- afficher un chronomètre 
+- Donner la possibilité de recommencer la partie
+- Donner la possibilité de quitter la partie
+- Donner la possibilité de changer de niveau difficulter
+- Proposer plusieurs musique de jeux parmis une sélection 
+- accéder à l'historique des parties
+- Proposer un design différents du labyrinthe 
+- Proposer des avatars différents 

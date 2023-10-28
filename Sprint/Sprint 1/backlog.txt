@@ -1,3 +1,7 @@
+HC: c'est plutôt un backlog global (pas de sprint)
+-> il faut mettre des priorités 
+-> il faut préciser les tâches pour le sprint et détailler davantage certaines tâches (ex: les items positifs.négatifs, comment joueur peut mourir,...)
+
 Créer le labyrinthe dans le noir 
 Créer l'avatar avec une petite lampe torche 
 Créer différents niveaux de difficulté

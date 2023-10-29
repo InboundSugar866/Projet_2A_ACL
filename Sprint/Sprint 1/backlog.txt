@@ -2,6 +2,8 @@ HC: c'est plutôt un backlog global (pas de sprint)
 -> il faut mettre des priorités 
 -> il faut préciser les tâches pour le sprint et détailler davantage certaines tâches (ex: les items positifs.négatifs, comment joueur peut mourir,...)
 
+HC: le diagramme de classe ne donne aucune information sur la conception de l'application, il ne sera d'aucune utilité pour implémenter l'application
+
 Créer le labyrinthe dans le noir 
 Créer l'avatar avec une petite lampe torche 
 Créer différents niveaux de difficulté

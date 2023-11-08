@@ -11,6 +11,7 @@ Première version du build.xml disponible dans TP1.
 
 Exécuter la commande 
 ```
+cd TP1
 ant run
 ```
 pour lancer le build.xml situé dans le dossier TP1.

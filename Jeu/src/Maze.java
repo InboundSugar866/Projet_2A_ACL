@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Maze {
 
-    private static char[][] maze = new char[20][20];
+    private static char[][] maze = new char[20][50];
     //private static char[][] maze;
     private static int rows = 0;
     private static int columns = 0;

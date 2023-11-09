@@ -16,3 +16,10 @@ Exécuter les commandes suivante pour lancer le jeu.
 cd Jeu
 ant run
 ```
+
+## Authors
+
+- [@InboundSugar866](https://github.com/InboundSugar866)
+- [@Louisefnt](https://github.com/Louisefnt)
+- [@LauraleenBR](https://github.com/LauraleenBR)
+- [@BrunoLacote](https://github.com/BrunoLacote)

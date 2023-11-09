@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
+#test
 public class Maze {
 
     private static char[][] maze = new char[20][50];

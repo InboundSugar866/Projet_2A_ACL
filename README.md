@@ -17,6 +17,11 @@ cd Jeu
 ant run
 ```
 
+## Features
+
+- Déplacement du personnage "E" avec z,q,s,d
+- Arrivée du personnage au point "S"
+
 ## Authors
 
 - [@InboundSugar866](https://github.com/InboundSugar866)

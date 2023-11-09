@@ -25,16 +25,16 @@ public class Maze {
 
     public static int[] moveCharacter(char direction, int posX, int posY, int maxY, int maxX) {
         switch (direction) {
-            case 'u':
+            case 'z':
                 posY = Math.max(0, posY - 1);
                 break;
-            case 'd':
+            case 's':
                 posY = Math.min(maxY - 1, posY + 1);
                 break;
-            case 'l':
+            case 'q':
                 posX = Math.max(0, posX - 1);
                 break;
-            case 'r':
+            case 'd':
                 posX = Math.min(maxX - 1, posX + 1);
                 break;
         }
@@ -101,7 +101,7 @@ public class Maze {
 
         Scanner scanner = new Scanner(System.in);
         while (maze[posY][posX] != 'S') {
-            System.out.println("Enter direction (u for up, d for down, l for left, r for right): ");
+            System.out.println("Enter direction (z for up, s for down, q for left, d for right): ");
             char direction = scanner.next().charAt(0);
 
             // Clear current position

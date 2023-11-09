@@ -1,5 +1,6 @@
 import java.io.*;
 
+//test
 public class Maze {
 
     private static char[][] maze = new char[20][50];

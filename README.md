@@ -21,6 +21,9 @@ ant run
 - Déplacement du personnage "E" avec z,q,s,d
 - Arrivée du personnage au point "S"
 
+## Changelog
+- V0.1 :
+
 ## Authors
 
 - [@InboundSugar866](https://github.com/InboundSugar866)

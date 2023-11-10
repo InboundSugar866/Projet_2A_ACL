@@ -22,7 +22,7 @@ ant run
 - Arrivée du personnage au point "S"
 
 ## Changelog
-- V0.1 :
+- V0.1 : première version du plateau fonctionnel avec déplacement du joueur jusqu'à l'arrivée.
 
 ## Authors
 

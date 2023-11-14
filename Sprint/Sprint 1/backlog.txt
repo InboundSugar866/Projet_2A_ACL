@@ -4,18 +4,40 @@ HC: c'est plutôt un backlog global (pas de sprint)
 
 HC: le diagramme de classe ne donne aucune information sur la conception de l'application, il ne sera d'aucune utilité pour implémenter l'application
 
-Créer le labyrinthe dans le noir 
-Créer l'avatar avec une petite lampe torche 
-Créer différents niveaux de difficulté
-Créer des items positifs ou négatifs que va rencontrer l'avatar dans son parcours (ex: possibilité d'éclairer davantage le labyrinthe un bref instant)
+Priorités :
+    de 1 à 4 (1 : prioritaire et 4 : secondaire)
+
+%%%%% 1 %%%%%
+Créer le labyrinthe dans le noir
+  -> aura autour du personnage qui ne permet pas de voir à plus de 4 ou 5 cases de distance
+Proposer des labyrinthes différents
+  -> différents niveaux générés aléatoirement
+  -> tailles ou difficultés différentes
+
+%%%%% 2 %%%%%
+Créer l'avatar avec une petite lampe torche
+  -> personnage posé aléatoirement sur le plateau
+  -> item de base pour voir à 4 ou 5 cases de distance
+Créer les monstres
+  -> différents types placés aléatoirement sur le plateau
+  -> ex: zombies, animaux qui font peur etc...
+Créer des items positifs ou négatifs que va rencontrer l'avatar dans son parcours 
+  -> possibilité d'éclairer davantage le labyrinthe un bref instant
+  -> plus de vie, plus d'attaque
+  -> moins de vie, moins d'attaque
 Annoncer la victoire du joueur
-Annoncer la mort du joueur 
-Afficher un chronomètre 
+Annoncer la mort du joueur
+
+%%%%% 3 %%%%%
+Créer différents niveaux de difficulté
+  -> changement de la taille du plateau, de l'agencement
+Afficher un chronomètre
 Donner la possibilité de recommencer la partie
 Donner la possibilité de quitter la partie
 Donner la possibilité de changer de niveau de difficulté
 Donner la possibilité de mettre en pause la partie
-Proposer plusieurs musiques de jeux parmi une sélection 
+
+%%%%% 4 %%%%%
+Proposer plusieurs musiques de jeux parmi une sélection
 Accéder à l'historique des parties
-Proposer des labyrinthes différents
 Proposer des avatars différents

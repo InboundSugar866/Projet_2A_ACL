@@ -8,13 +8,14 @@ Priorités :
     de 1 à 4 (1 : prioritaire et 4 : secondaire)
 
 %%%%% 1 %%%%%
-Créer le labyrinthe dans le noir
-  -> aura autour du personnage qui ne permet pas de voir à plus de 4 ou 5 cases de distance
+Créer le labyrinthe
 Proposer des labyrinthes différents
   -> différents niveaux générés aléatoirement
   -> tailles ou difficultés différentes
 
 %%%%% 2 %%%%%
+Créer le labyrinthe dans le noir
+  -> aura autour du personnage qui ne permet pas de voir à plus de 4 ou 5 cases de distance
 Créer l'avatar avec une petite lampe torche
   -> personnage posé aléatoirement sur le plateau
   -> item de base pour voir à 4 ou 5 cases de distance

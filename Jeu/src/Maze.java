@@ -3,19 +3,14 @@ import java.util.Scanner;
 
 public class Maze {
 
-    private static char[][] maze = new char[20][50];
-    //private static char[][] maze;
-    private static int rows = 0;
-    private static int columns = 0;
-
+    private static final char[][] maze = new char[20][50];
 
     public static void print () {
 
         System.out.println();
 
-        for (int r=0; r < maze.length; r++) {
-            for (int c=0; c< maze[r].length; c++)
-                System.out.print (maze[r][c]);
+        for (char[] chars : maze) {
+            for (char aChar : chars) System.out.print(aChar);
             System.out.println();
         }
 
@@ -23,7 +18,7 @@ public class Maze {
 
     }  // method print_maze
 
-    public static int[] moveCharacter(char direction, int posX, int posY, int maxY, int maxX) {
+    public static int[] setPosition(char direction, int posX, int posY, int maxY, int maxX) {
         switch (direction) {
             case 'z':
                 posY = Math.max(0, posY - 1);
@@ -52,10 +47,27 @@ public class Maze {
         return new int[]{-1, -1};  // Return -1, -1 if target is not found
     }  // method getPosition
 
+    public static void main(String[] args)  {
 
-    public static void main(String[] args) throws IOException  {
-
-        String fileName = "maze.txt";
+        Scanner niv = new Scanner(System.in);
+        System.out.println("Choose the level : 1(easy), 2(medium), 3(hard) ");
+        String niveau = niv.next();
+        String fileName;
+        switch (niveau) {
+            case "1":
+                fileName = "src/assets/maze1.txt";
+                break;
+            case "2":
+                fileName = "src/assets/maze2.txt";
+                break;
+            case "3":
+                fileName = "src/assets/maze3.txt";
+                break;
+            default:
+                fileName = "";
+                System.out.println("not in database");
+                System. exit(0);
+        }
 
         try {
             String readline;
@@ -94,7 +106,6 @@ public class Maze {
 
         print();
 
-
         // Get the initial position of 'X'
         int[] position = getPosition(maze, 'E');
         int posX = position[0], posY = position[1];
@@ -108,7 +119,7 @@ public class Maze {
             maze[posY][posX] = '!';
 
             // Move the character
-            int[] newPosition = moveCharacter(direction, posX, posY, maze.length, maze[0].length);
+            int[] newPosition = setPosition(direction, posX, posY, maze.length, maze[0].length);
             // Check if the new position is occupied by '#'
             if (maze[newPosition[1]][newPosition[0]] == '#') {
                 System.out.println("Not possible");

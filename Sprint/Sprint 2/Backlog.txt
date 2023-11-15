@@ -1,0 +1,4 @@
+- Le personnage peux se deplacer dans le labyrinthe et un message de victoire s'affiche lorsqu'il trouve la sortie.
+- Le labyrinthe est dans le noir.
+- Un monstre se deplace aléatoirement dans le labyrinthe et tue le joueur s'il est sur la même case et un message de defaite s'affiche.
+- Un piège invisible renvoie le personnage a la case départ (devient visible quand le personnage tombe dedans).

@@ -5,19 +5,16 @@
     <property name="src.dir" location="src" />
     <property name="build.dir" location="bin" />
     <property name="dist.dir" location="dist" />
-    <property name="docs.dir" location="docs" />
 
     <!-- Deletes the existing build, docs and dist directory-->
     <target name="clean">
         <delete dir="${build.dir}" />
-        <delete dir="${docs.dir}" />
         <delete dir="${dist.dir}" />
     </target>
 
     <!-- Creates the  build, docs and dist directory-->
     <target name="makedir">
         <mkdir dir="${build.dir}" />
-        <mkdir dir="${docs.dir}" />
         <mkdir dir="${dist.dir}" />
     </target>
 
@@ -26,16 +23,6 @@
         <javac srcdir="${src.dir}" destdir="${build.dir}">
         </javac>
 
-    </target>
-
-    <!-- Creates Javadoc -->
-    <target name="docs" depends="compile">
-        <javadoc packagenames="src" sourcepath="${src.dir}" destdir="${docs.dir}">
-            <!-- Define which files / directory should get included, we include all -->
-             <fileset dir="${src.dir}">
-                <include name="**" />
-             </fileset>
-        </javadoc>
     </target>
 
     <!--Creates the deployable jar file  -->
@@ -47,7 +34,7 @@
         </jar>
     </target>
 
-    <target name="Maze" depends="compile, jar, docs">
+    <target name="Maze" depends="compile, jar">
         <description>Main target</description>
     </target>
     

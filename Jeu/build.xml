@@ -29,12 +29,12 @@
     <target name="jar" depends="compile">
         <jar destfile="${dist.dir}\Projet_ACL_V2.jar" basedir="${build.dir}">
             <manifest>
-                <attribute name="Main-Class" value="Maze" />
+                <attribute name="Main-Class" value="Maze.Maze" />
             </manifest>
         </jar>
     </target>
 
-    <target name="Maze" depends="compile, jar">
+    <target name="Maze.Maze" depends="compile, jar">
         <description>Main target</description>
     </target>
     

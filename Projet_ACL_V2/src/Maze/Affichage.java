@@ -2,15 +2,12 @@ package Maze;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 public class Affichage {
     private final JLabel[][] mazeCells;
     private int posX, posY;
-    private static final char[][] maze = new char[20][50];
 
     public Affichage(char[][] maze) {
         JFrame frame = new JFrame("Maze Game");

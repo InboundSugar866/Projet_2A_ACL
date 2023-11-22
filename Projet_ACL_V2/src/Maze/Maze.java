@@ -1,11 +1,11 @@
 package Maze;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class Maze {
     private static final char[][] maze = new char[20][50];
 
+    // Method to set the position of a character in the maze
     public static int[] setPosition(int dx, int dy, int posX, int posY, int mazeHeight, int mazeWidth) {
         int newX = posX + dx;
         int newY = posY + dy;
@@ -16,6 +16,17 @@ public class Maze {
         }
     }
 
+    // Method to get the position of a character in the maze
+    public static int[] getPosition(char[][] maze, char character, int i, int j) {
+        int[] position = new int[2];
+        if (character == 'S' || character == 'E') {
+            position[0] = j;
+            position[1] = i;
+        }
+        return position;
+    }
+
+    // Method to load the maze from a txt file
     public static char[][] loadMaze(String fileName) {
         try {
             String readline;
@@ -49,6 +60,4 @@ public class Maze {
         }
         return maze;
     }
-
 }
-

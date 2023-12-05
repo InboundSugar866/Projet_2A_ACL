@@ -23,6 +23,7 @@ ant run
 
 ## Changelog
 - V0.1 : première version du plateau fonctionnel avec déplacement du joueur jusqu'à l'arrivée.
+- V0.2 : affichage du labyrinthe dans le noir, un monstre se ballade et il y a des pièges.
 
 ## Authors
 

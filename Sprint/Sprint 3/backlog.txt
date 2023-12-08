@@ -13,3 +13,5 @@
       -> correction des bugs d'affichage
       -> plusieurs instances de monstres qui bougent
 - Rendre les monstres autonomes (ie horloge)
+
+- Vie des monstres et des personnages

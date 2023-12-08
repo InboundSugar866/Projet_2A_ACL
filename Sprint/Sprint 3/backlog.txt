@@ -7,6 +7,7 @@
 - Donner la possibilité de mettre en pause la partie
 - Afficher fin de la partie
 - Rajouter des types de pièges et de bonus (ie des objets)
+- Plus de types de monstres
 - Rafinement
   -> correction des bugs
       -> correction des bugs d'affichage

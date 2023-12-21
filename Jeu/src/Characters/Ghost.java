@@ -16,7 +16,8 @@ public class Ghost extends Characters{
         this.mazeCells = mazeCells;
         this.spotlightPanel = spotlightPanel;
     }
-
+    
+    // method to make the ghost move somewhat randomly
     public int[] ghost(char[][] maze, ImageIcon floorIcon, ImageIcon monsterIcon, ImageIcon monsterIconR, ImageIcon monsterWallIcon, ImageIcon monsterWallIconR,ImageIcon WallIcon) {
         int dxM, dyM;
         boolean Etat = true;
@@ -77,7 +78,6 @@ public class Ghost extends Characters{
         }
         // If the new position is valid and not the player's position, update the maze and draw the monster
         if ((maze[newPositionM[1]][newPositionM[0]] != 'E' || maze[newPositionM[1]][newPositionM[0]] != 'F') && maze[newPositionM[1]][newPositionM[0]] != 'T' && maze[newPositionM[1]][newPositionM[0]] != 'S') {
-            //System.out.println("ok");
             if (Wall) {
                 maze[posYG][posXG] = '#';
                 mazeCells[posYG][posXG].setIcon(WallIcon);

@@ -1,6 +1,6 @@
 package Characters;
 
-import Game.Tests;
+import Game.Menus;
 import Maze.Maze;
 
 import javax.swing.*;
@@ -79,12 +79,12 @@ public class Hero extends Characters{
                     mazeCells[posY][posX].setIcon(characterIconR);
                 }
                 Affichage.spotlightPanel.repaint();
-            } else if (Tests.haswon(maze, newPosition[0], newPosition[1])) {
+            } else if (Menus.haswon(maze, newPosition[0], newPosition[1])) {
                 Affichage.victorydisplay();
-                Tests.restartGame();
+                Menus.restartGame();
             } else if (maze[newPosition[1]][newPosition[0]] == 'M' || maze[newPosition[1]][newPosition[0]] == 'N' || maze[newPosition[1]][newPosition[0]] == 'G' || maze[newPosition[1]][newPosition[0]] == 'H') {
                 Affichage.deathdisplay();
-                Tests.restartGame();
+                Menus.restartGame();
             } else if (maze[newPosition[1]][newPosition[0]] == 'T') {
                 int[] newPlayerPosition = Affichage.Trap.handleTrap(maze, posX, posY, floorIcon, characterIcon);
                 posX = newPlayerPosition[0];

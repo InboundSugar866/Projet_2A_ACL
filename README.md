@@ -16,6 +16,9 @@ cd Jeu
 ant run
 ```
 
+## How to play
+Utilliser les touches du clavier UP, DOWN, LEFT, RIGHT pour déplacer le personnage dans le labyrinthe et atteindre la destination sans se faire tuer par les monstres.
+
 ## Features
 
 - Déplacement du personnage "E" avec z,q,s,d
@@ -24,6 +27,7 @@ ant run
 ## Changelog
 - V0.1 : première version du plateau fonctionnel avec déplacement du joueur jusqu'à l'arrivée.
 - V0.2 : affichage du labyrinthe dans le noir, un monstre se ballade et il y a des pièges.
+- V0.3 : plusieurs monstres, plusieurs niveau de difficultés, plusieurs labyrinthe, version finale.
 
 ## Authors
 

@@ -16,6 +16,7 @@ public class Characters {
         this.mazeCells = mazeCells;
     }
 
+    // method to place a character somewhere randomly on the maze
     public static void placeCharacter(char[][] maze, char character) {
         List<int[]> availablePositions = new ArrayList<>();
         // Find all positions with '!'
@@ -37,6 +38,7 @@ public class Characters {
         }
     }
 
+    // method to place the player somewhere randomly on the upper left corner of the maze
     public static void placePlayer(char[][] maze, char character) {
         List<int[]> availablePositions = new ArrayList<>();
         // Find all positions with '!'
@@ -58,6 +60,7 @@ public class Characters {
         }
     }
 
+    // method to place the end flag somewhere randomly on the lower right corner of the maze
     public static void placeEnd(char[][] maze, char character) {
         List<int[]> availablePositions = new ArrayList<>();
         // Find all positions with '!'

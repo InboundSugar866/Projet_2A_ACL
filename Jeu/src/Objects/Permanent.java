@@ -17,7 +17,7 @@ public class Permanent extends Objects {
     public void handleFiole(char[][] maze, int playerX, int playerY){
         //Affichage.setRad(8);
         Affichage.spotlightPanel = null;
-        //Affichage.createSpotlight(Affichage.frame, maze, 3);
-        //Affichage.spotlightPanel.repaint();
+        Affichage.createSpotlight(Affichage.frame, maze, 3);
+        Affichage.spotlightPanel.repaint();
     }
 }

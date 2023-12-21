@@ -19,6 +19,7 @@ public class Monster extends Characters{
         this.spotlightPanel = spotlightPanel;
     }
 
+    // method to handle the monsters movement
     public void monster(char[][] maze, ImageIcon floorIcon, ImageIcon monsterIcon, ImageIcon monsterIconR) {
 
         int[] posE = new int[2];
@@ -31,6 +32,7 @@ public class Monster extends Characters{
             }
         }
 
+        // solve A* for each monsters
         List<A_star.Point> positions = new ArrayList<>();
         for (int i = 0; i < maze.length; i++) {
             for (int j = 0; j < maze[0].length; j++) {
@@ -40,6 +42,7 @@ public class Monster extends Characters{
             }
         }
 
+        // move all the monsters on the A* path
         for (A_star.Point position : positions) {
             int dxM = 0, dyM = 0; // Initialize dxM and dyM
             int posXM = position.col, posYM = position.row; // Get the current position of 'M' or 'N'

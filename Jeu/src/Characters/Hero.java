@@ -20,6 +20,7 @@ public class Hero extends Characters{
         Hero.spotlightPanel = spotlightPanel;
     }
 
+    // method to move the player according to the keyboard inputs
     public static void handleKeyPress(KeyEvent e, char[][] maze, ImageIcon floorIcon, ImageIcon characterIcon, ImageIcon characterIconR) {
         int dx = 0, dy = 0;
         boolean Etat = true;
@@ -57,6 +58,7 @@ public class Hero extends Characters{
                 break;
         }
 
+        // check all the loose and win cases
         int[] newPosition = Maze.setPosition(dx, dy, posX, posY, maze.length, maze[0].length);
         if (maze[newPosition[1]][newPosition[0]] != '#') {
             if (maze[newPosition[1]][newPosition[0]] == '!' || maze[newPosition[1]][newPosition[0]] == 'L') {

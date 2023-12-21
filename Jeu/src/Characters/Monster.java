@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.util.*;
 
 
-import Game.Tests;
+import Game.Menus;
 import Maze.Maze;
 import Maze.Affichage;
 import Game.A_star;
@@ -96,7 +96,7 @@ public class Monster extends Characters{
                     Affichage.spotlightPanel.repaint();
                 } else if(maze[newPositionM[1]][newPositionM[0]] == 'E' || maze[newPositionM[1]][newPositionM[0]] == 'F'){
                     Affichage.deathdisplay();
-                    Tests.restartGame();
+                    Menus.restartGame();
                 }
             }
         }

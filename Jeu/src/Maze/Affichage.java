@@ -89,6 +89,7 @@ public class Affichage {
 
         populateMaze(maze, frame, icons);
 
+        // clock that controls the movement of the monsters
         timer = new Timer(1000,new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 monsterManager.moveMonsters(maze);
@@ -190,6 +191,7 @@ public class Affichage {
         frame.setResizable(false);
     }
 
+    // method to set the view radius //// not used
     public static void setRad(int newRad) {
         rad = newRad;
         spotlightPanel.repaint();
@@ -236,6 +238,7 @@ public class Affichage {
         spotlightPanel.setVisible(true);
     }
 
+    // method that creates the victory frame
     public static void victorydisplay () {
 
         JFrame f = new JFrame("VICTOIRE");
@@ -256,6 +259,7 @@ public class Affichage {
         f.setVisible(true);
     }
 
+    // method that creates the defeat frame
     public static void deathdisplay () {
 
         JFrame f = new JFrame("DEFAITE");
@@ -276,12 +280,14 @@ public class Affichage {
         f.setVisible(true);
     }
 
+    // method for the difficulty setting choice
     public static int choix(){
         Object[] options = {"facile", "moyen", "difficile"};
         int choix = JOptionPane.showOptionDialog(null, "Sélectionnez un niveau :", "Choix du niveau", JOptionPane.DEFAULT_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);;
         return choix+1;
     }
-
+    
+    // class to handle all the method concerning the monsters, easier that way
     public class MonsterManager {
         private List<Monster> monsters;
         private ImageIcon floorIcon, monsterIcon, monsterIconR;

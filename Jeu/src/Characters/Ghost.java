@@ -3,7 +3,7 @@ package Characters;
 import javax.swing.*;
 import java.util.Random;
 
-import Game.Tests;
+import Game.Menus;
 import Maze.Maze;
 import Maze.Affichage;
 
@@ -74,7 +74,7 @@ public class Ghost extends Characters{
 
         if(maze[newPositionM[1]][newPositionM[0]] == 'E' || maze[newPositionM[1]][newPositionM[0]] == 'F'){
             Affichage.deathdisplay();
-            Tests.restartGame();
+            Menus.restartGame();
         }
         // If the new position is valid and not the player's position, update the maze and draw the monster
         if ((maze[newPositionM[1]][newPositionM[0]] != 'E' || maze[newPositionM[1]][newPositionM[0]] != 'F') && maze[newPositionM[1]][newPositionM[0]] != 'T' && maze[newPositionM[1]][newPositionM[0]] != 'S') {

@@ -1,8 +1,6 @@
 - Créer différents niveaux de difficulté
   -> changement de la taille du plateau, de l'agencement
-- Afficher un chronomètre
 - Donner la possibilité de recommencer la partie
-- Donner la possibilité de quitter la partie
 - Donner la possibilité de changer de niveau de difficulté
 - Afficher fin de la partie
 - Rajouter des types de pièges et de bonus (ie des objets)
@@ -13,5 +11,5 @@
       -> plusieurs instances de monstres qui bougent
 - Rendre les monstres autonomes (ie horloge)
 
-- Vie des monstres et des personnages
+- Vie des personnages
 

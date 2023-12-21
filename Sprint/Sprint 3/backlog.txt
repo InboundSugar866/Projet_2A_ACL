@@ -4,7 +4,6 @@
 - Donner la possibilité de recommencer la partie
 - Donner la possibilité de quitter la partie
 - Donner la possibilité de changer de niveau de difficulté
-- Donner la possibilité de mettre en pause la partie
 - Afficher fin de la partie
 - Rajouter des types de pièges et de bonus (ie des objets)
 - Plus de types de monstres
@@ -15,4 +14,4 @@
 - Rendre les monstres autonomes (ie horloge)
 
 - Vie des monstres et des personnages
-- Attaques
+

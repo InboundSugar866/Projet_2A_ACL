@@ -10,10 +10,11 @@ public class Permanent extends Objects {
 
     public Permanent(JLabel[][] mazeCells, JPanel spotlightPanel) {
         super(mazeCells, spotlightPanel);
-        this.mazeCells = mazeCells; // add this line
+        this.mazeCells = mazeCells;
         this.spotlightPanel = spotlightPanel;
     }
 
+    // method that does what this potion is supposed to do
     public void handleFiole(char[][] maze, int playerX, int playerY){
         //Affichage.setRad(8);
         Affichage.spotlightPanel = null;

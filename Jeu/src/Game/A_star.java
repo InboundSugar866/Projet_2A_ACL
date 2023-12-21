@@ -3,7 +3,6 @@ package Game;
 import java.util.*;
 
 public class A_star {
-    // A class to store the coordinates of a matrix cell
     public static class Point {
         public int row;
         public int col;

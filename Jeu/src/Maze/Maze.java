@@ -19,7 +19,7 @@ public class Maze {
     // Method to get the position of a character in the maze
     public static int[] getPosition(char[][] maze, char character, int i, int j) {
         int[] position = new int[2];
-        if (character == 'S' || character == 'E' || character == 'M') {
+        if (maze[i][j] == character) {
             position[0] = j;
             position[1] = i;
         }

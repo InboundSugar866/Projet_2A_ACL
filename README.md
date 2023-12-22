@@ -21,8 +21,11 @@ Utilliser les touches du clavier UP, DOWN, LEFT, RIGHT pour déplacer le personn
 
 ## Features
 
-- Déplacement du personnage "E" avec z,q,s,d
-- Arrivée du personnage au point "S"
+- Déplacement du personnage "E" avec UP, DOWN, LEFT, RIGHT
+- Arrivée du personnage au drapeau
+- Monstres qui suivent le personnage
+- Atouts et pièges
+- Ecrans d'affichages de fin et de debut
 
 ## Changelog
 - V0.1 : première version du plateau fonctionnel avec déplacement du joueur jusqu'à l'arrivée.
